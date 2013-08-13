@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- <group >
+       <item
+        android:id="@+id/context_new_game"
+        android:title="@string/str_context_new_game"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/new_game"/>
+       </group> -->
+
+    <item
+        android:id="@+id/context_new_word"
+        android:title="@string/str_context_new_word"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/refresh"/>
+
+    <item
+        android:id="@+id/context_settings"
+        android:title="@string/str_context_settings"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/settings"/>
+    
+
+</menu>

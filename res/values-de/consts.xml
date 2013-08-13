@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="const_setting_font_color">sttng_fnt_clr</string>
+    <string name="const_setting_bg_color">sttng_bg_clr</string>
+    <string name="const_setting_difficulty">sttng_diff</string>
+    <string name="const_setting_font">sttng_fnt</string>
+    <string name="const_setting_about">about</string>
+    <string name="const_setting_default_value">dflt</string>
+    <string name="const_setting_draw_indicator">sttng_drw_ndctr</string>
+    <string name="const_current_level">curr_lvl</string>
+    <string name="const_current_level_progress">progress_lvl</string>
+    <string name="const_solved_words">slvd_wrds</string>
+
+</resources>

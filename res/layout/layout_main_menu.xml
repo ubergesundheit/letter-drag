@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <ubergesundheit.owrds.elems.MainMenuView
+        android:id="@+id/mainmenuview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </ubergesundheit.owrds.elems.MainMenuView>
+    
+  <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+     <Button
+        android:id="@+id/main_menu_continue_game_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_main_menu_continue_game" />
+    
+    <Button
+        android:id="@+id/main_menu_start_game_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_main_menu_start_game" />
+
+    <Button
+        android:id="@+id/main_menu_start_endless_game_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_main_menu_endless_game" />
+
+    <Button
+        android:id="@+id/main_menu_settings_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_main_menu_settings" />
+    </LinearLayout> -->
+
+</RelativeLayout>

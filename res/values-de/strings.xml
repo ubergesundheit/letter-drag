@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Wähle eine Farbe</string>
+    <string name="press_color_to_apply">Auf Farbe drücken, um Farbe auszuwählen</string>
+
+    <!-- Text -->
+    <string name="app_name">Letter Drag</string>
+    <string name="app_description">Letter Drag - Ein lustiges Spiel in dem man Wörter entwirren muss.\n\n<b>So wird gespielt:</b>\nBerühre einen Buchstaben und ziehe ihn an die richtige Stelle.\nHoch swipen um ein neues Wort zu bekommen.\nDoppelt tippen um Optionen anzugeigen.</string>
+    <string name="app_attribution">Letter Drag &#169; 2012 Ubergesundheit\n\nThis app uses the following Fonts licenced under the SIL Open Font License:\nRaleway by Matt McInerney\nJunction by Caroline Hadilaksono\nProciono by Barry Schwartz\nSniglet by Haley Fiege\n\nThis app uses the following classes:\n<b>ColorPickerDialog.java, ColorPickerPanelView.java, ColorPickerView.java from Daniel Nilsson</b>\nCopyright &#169; 2010 Daniel Nilsson\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n\n<b>ColorPickerPreference.java from Sergey Margaritov</b>\nCopyright &#169; 2011 Sergey Margaritov\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n\n<b>FontManager.java, FontPreference.java from George Yunaev</b>\nCopyright &#169; 2011&#8122;2012 George Yunaev\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.</string>
+    <string name="str_context_new_word">Neues Wort</string>
+    <string name="str_context_settings">Einstellungen</string>
+    <string name="str_settings_font_color">Schriftfarbe ändern</string>
+    <string name="str_settings_bg_color">Hintergrundfarbe ändern</string>
+    <string name="str_settings_font">Schriftart ändern</string>
+    <string name="str_settings_apperance">Aussehen</string>
+    <string name="str_settings_about">Über diese App</string>
+    <string name="str_settings_default_values">Aussehen zurücksetzen</string>
+    <string name="str_settings_default_values_summary">Alle Aussehenseinstellungen zurücksetzen</string>
+    <string name="str_settings_draw_indicator">Berührungsindikator anzeigen</string>
+    <string name="str_settings_draw_indicator_summary_on">Jede Berührung wird durch einen Indikator angezeigt</string>
+    <string name="str_dialog_new_game_title">Neues Spiel starten?</string>
+    <string name="str_dialog_new_game_body">Der Spielstand wird hierdurch zurückgesetzt</string>
+    <string name="str_dialog_reset_appearance_title">Aussehen zurücksetzen?</string>
+    <string name="str_dialog_reset_appearance_body">Du bist gerade dabei alle Farben und die Schriftart zurückzusetzen.</string>
+    <string name="str_main_menu_start_game">NeuesSpiel</string>
+    <string name="str_main_menu_continue_game">Weiterspielen</string>
+    <string name="str_main_menu_endless_game">UnendlichesSpiel</string>
+    <string name="str_main_menu_settings">Einstellungen</string>
+    <string name="str_main_menu_help">Anleitung</string>
+    <string name="str_game_level_up">Level up!</string>
+    <string name="str_description_correct">Correct!</string>
+    <string name="str_dialog_game_won_title">Herzlichen Glückwunsch!</string>
+    <string name="str_dialog_game_won_body">Du hast das Spiel erfolgreich durchgespielt!</string>
+    <string name="str_howto_title">Anleitung</string>
+    <string name="str_howto_general_description">In Letter Drag ist jeder Buchstabe am falschen Platz. Deine Aufgabe ist es, die Buchstaben an ihre richtige Position zu ziehen.\n\n<b>Du kannst im Spiel doppelt tippen, um die Einstellungen aufzurufen oder um ein neues Wort zu bekommen wenn du nicht weiter weißt.</b></string>
+    <string name="str_howto_first_description">Die Buchstaben im Wort sind nicht in ihrer richtigen Reihenfolge. Du kannst die Buchstaben mit dem Finger an ihre korrekte Position ziehen.</string>
+    <string name="str_howto_second_description">Nachdem du das \"L\" an seine richtige Position gezogen hast, sind das letzte \"o\" und das \"g\" noch falsch. Ziehe sie einfach an ihre richtige Position.</string>
+    <string name="str_howto_third_description">Das Wort ist nun korrekt. Ein neues Wort erscheint.</string>
+
+</resources>

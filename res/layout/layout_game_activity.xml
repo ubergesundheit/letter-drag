@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ubergesundheit.owrds.elems.OwrdView
+        android:id="@+id/surfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ubergesundheit.owrds.elems.OwrdView>
+
+    <ImageView
+        android:id="@+id/correctview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/correct"
+        android:visibility="gone"
+        android:contentDescription="@string/str_description_correct" >
+    </ImageView>
+
+    <ProgressBar
+        android:id="@+id/progressBarView"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+        android:indeterminateOnly="false"
+        android:maxHeight="5dip"
+        android:minHeight="5dip"
+        android:progressDrawable="@drawable/progress_horizontal"
+        android:visibility="gone" />
+    <TextView 
+        android:id="@+id/levelIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBarView"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+    
+    <TextView 
+        android:id="@+id/levelupview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/levelIndicator"
+        android:layout_centerHorizontal="true"
+        android:text="@string/str_game_level_up"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="a15040d15233975"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" />
+
+</RelativeLayout>

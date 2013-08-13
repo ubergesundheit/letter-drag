@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- <ListPreference
+        android:defaultValue="1.0f"
+        android:entries="@array/array_settings_difficulty"
+        android:entryValues="@array/array_settings_difficulty_values"
+        android:key="@string/const_setting_difficulty"
+        android:persistent="true"
+        android:title="@string/str_settings_difficulty" /> -->
+
+    <PreferenceCategory android:title="@string/str_settings_apperance" >
+        <ubergesundheit.owrds.elems.FontPreference
+            android:defaultValue="0"
+            android:key="@string/const_setting_font"
+            android:persistent="true"
+            android:title="@string/str_settings_font" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:defaultValue="#FFFFFF"
+            android:key="@string/const_setting_font_color"
+            android:persistent="true"
+            android:title="@string/str_settings_font_color" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:defaultValue="#000000"
+            android:key="@string/const_setting_bg_color"
+            android:persistent="true"
+            android:title="@string/str_settings_bg_color" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/const_setting_draw_indicator"
+            android:summaryOn="@string/str_settings_draw_indicator_summary_on"
+            android:title="@string/str_settings_draw_indicator"
+            android:persistent="true" />
+
+        <Preference
+            android:key="@string/const_setting_default_value"
+            android:selectable="true"
+            android:summary="@string/str_settings_default_values_summary"
+            android:title="@string/str_settings_default_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/str_settings_about" >
+        <Preference
+            android:key="@string/const_setting_about"
+            android:title="@string/str_settings_about" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
